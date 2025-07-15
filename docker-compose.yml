@@ -1,5 +1,15 @@
 ---
 services:
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    container_name: freqtrade_redis
+    ports:
+      - "127.0.0.1:6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+
   freqtrade:
     image: freqtradeorg/freqtrade:stable
     # image: freqtradeorg/freqtrade:develop
@@ -20,6 +30,11 @@ services:
     #   dockerfile: "./docker/Dockerfile.custom"
     restart: unless-stopped
     container_name: freqtrade
+    environment:
+      - BINANCE_API_KEY=p4MNWemvBU2kKRlgpc84xVyKEqM2oAzwrfD7y2mgpaVxGBNoPMMqahxf9cqlvlsk
+      - BINANCE_SECRET_KEY=6YUDWozHgO5QyxKIFDEPvieuHgMyw9sfEQ33H1yptO4OY26zrQpEH1Aznk2ny1Ki
+    env_file:
+      - ./user_data/.env
     volumes:
       - "./user_data:/freqtrade/user_data"
     # Expose api on port 8080 (localhost only)
@@ -34,3 +49,8 @@ services:
       --db-url sqlite:////freqtrade/user_data/tradesv3.sqlite
       --config /freqtrade/user_data/config.json
       --strategy SampleStrategy
+    depends_on:
+      - redis
+
+volumes:
+  redis_data:
