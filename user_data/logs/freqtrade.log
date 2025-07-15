@@ -19824,3 +19824,25 @@ freqtrade.exceptions.TemporaryError: Error in reload_markets due to ExchangeNotA
 2025-07-15 21:12:52,397 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'rateLimit': 200}
 2025-07-15 21:12:52,428 - freqtrade.exchange.exchange - INFO - Applying additional ccxt config: {'options': {'defaultType': 'swap'}, 'enableRateLimit': True, 'rateLimit': 200}
 2025-07-15 21:12:52,465 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2025-07-15 21:12:58,598 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2025-07-15 21:12:58,911 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-15 21:12:59,836 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-07-15 21:13:00,623 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-07-15 21:13:00,626 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-07-15 21:13:00,709 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-07-15 21:13:00,712 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-07-15 21:13:00,766 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 3 pairs: ['USUAL/USDT:USDT', 'ETH/USDT:USDT', 'BTC/USDT:USDT']
+2025-07-15 21:13:00,768 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.05s
+2025-07-15 21:13:00,772 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-07-15 21:13:00,776 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-07-15 21:13:00,778 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-07-15 21:13:00,780 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-07-15 21:13:00,782 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-07-15 21:13:00,784 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-07-15 21:13:00,828 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-07-15 21:13:00,830 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'0': 0.02}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2025-07-15 21:13:00,832 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-07-15 21:13:00,852 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=5, pair=BTC/USDT:USDT, amount=0.00200000, is_short=False, leverage=1.0, open_rate=121450.60000000, open_since=2025-07-14 11:25:06)
+2025-07-15 21:13:09,771 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-15 21:14:09,781 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-15 21:15:11,897 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
