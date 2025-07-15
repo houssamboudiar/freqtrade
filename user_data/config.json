@@ -62,9 +62,9 @@
     "enabled": true,
     "listen_ip_address": "0.0.0.0",
     "listen_port": 8080,
-    "username": "yourUsername",
-    "password": "yourPassword",
-    "jwt_secret_key": "some-random-secret-key",
+    "username": "houssam",
+    "password": "trading2025",
+    "jwt_secret_key": "houssam-trading-secret-key-2025",
     "CORS_origins": ["http://localhost:5173", "http://localhost:3000"]
   },
   "bot_name": "freqtrade",
