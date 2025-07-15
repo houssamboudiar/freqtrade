@@ -1,0 +1,19 @@
+# Docker Compose Override for Development
+# Use: docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
+
+services:
+  freqtrade:
+    # Override command for backtesting mode
+    command: >
+      backtesting
+      --logfile /freqtrade/user_data/logs/freqtrade_backtest.log
+      --config /freqtrade/user_data/config.json
+      --strategy-list SampleStrategy
+      --timerange 20241201-20241215
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+      # Mount scripts for development
+      - "./user_data/scripts:/freqtrade/user_data/scripts"
+    environment:
+      - PYTHONPATH=/freqtrade/user_data/scripts
+      - LOG_LEVEL=DEBUG
