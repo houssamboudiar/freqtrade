@@ -1,14 +1,55 @@
-# ![freqtrade](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade_poweredby.svg)
+# Houssam's Personal Freqtrade Repository
 
-[![Freqtrade CI](https://github.com/freqtrade/freqtrade/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/freqtrade/freqtrade/actions/)
-[![DOI](https://joss.theoj.org/papers/10.21105/joss.04864/status.svg)](https://doi.org/10.21105/joss.04864)
-[![Coverage Status](https://coveralls.io/repos/github/freqtrade/freqtrade/badge.svg?branch=develop&service=github)](https://coveralls.io/github/freqtrade/freqtrade?branch=develop)
-[![Documentation](https://readthedocs.org/projects/freqtrade/badge/)](https://www.freqtrade.io)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5737e6d668200b7518ff/maintainability)](https://codeclimate.com/github/freqtrade/freqtrade/maintainability)
+This is my personal fork and customization of the Freqtrade crypto trading bot. This repository contains my own trading strategies, custom scripts, and personal configurations.
 
-Freqtrade is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+## About This Fork
 
-![freqtrade](https://raw.githubusercontent.com/freqtrade/freqtrade/develop/docs/assets/freqtrade-screenshot.png)
+This repository is based on [Freqtrade](https://github.com/freqtrade/freqtrade) - a free and open source crypto trading bot written in Python. I've customized it with my own:
+
+- 🔧 **Custom EMA Scripts**: Advanced EMA calculation and Redis integration
+- 📊 **Personal Trading Strategies**: My own backtested trading algorithms  
+- ⚙️ **Custom Configuration**: Personalized bot settings and parameters
+- 📈 **Analysis Tools**: Custom scripts for market analysis and debugging
+
+## My Custom Scripts
+
+Located in `user_data/scripts/`:
+- `ema_to_redis.py` - EMA calculation with Redis storage
+- `read_ema_from_redis.py` - Redis data retrieval for EMA values
+- `debug_ema.py` - EMA debugging and analysis tools
+- `test_ema.py` & `test_ema_quick.py` - EMA testing utilities
+
+## Getting Started
+
+1. **Clone this repository**:
+   ```bash
+   git clone https://github.com/houssamboudiar/freqtrade.git
+   cd freqtrade
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Setup your configuration**:
+   ```bash
+   cp user_data/config.json.example user_data/config.json
+   # Edit config.json with your exchange API keys and preferences
+   ```
+
+4. **Run my custom EMA script**:
+   ```bash
+   cd user_data/scripts
+   python ema_to_redis.py
+   ```
+
+## Original Freqtrade Information
+
+This fork is based on Freqtrade v2025.x. For original documentation, features, and community support, visit:
+- 📖 [Official Documentation](https://www.freqtrade.io)
+- 💬 [Discord Community](https://discord.gg/freqtrade)
+- 🐛 [Original Repository](https://github.com/freqtrade/freqtrade)
 
 ## Disclaimer
 
