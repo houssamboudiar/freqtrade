@@ -30,9 +30,6 @@ services:
     #   dockerfile: "./docker/Dockerfile.custom"
     restart: unless-stopped
     container_name: freqtrade
-    environment:
-      - BINANCE_API_KEY=p4MNWemvBU2kKRlgpc84xVyKEqM2oAzwrfD7y2mgpaVxGBNoPMMqahxf9cqlvlsk
-      - BINANCE_SECRET_KEY=6YUDWozHgO5QyxKIFDEPvieuHgMyw9sfEQ33H1yptO4OY26zrQpEH1Aznk2ny1Ki
     env_file:
       - ./user_data/.env
     volumes:
