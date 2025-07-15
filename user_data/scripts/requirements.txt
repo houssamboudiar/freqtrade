@@ -1,0 +1,6 @@
+# Requirements for EMA to Redis script
+redis>=4.5.0
+pandas>=1.5.0
+numpy>=1.21.0
+ccxt>=4.0.0
+python-dotenv>=0.19.0
