@@ -1,0 +1,2 @@
+# Additional requirements for websocket_updater.py
+colorama>=0.4.4

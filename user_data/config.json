@@ -17,7 +17,7 @@
     "unit": "minutes"
   },
   "entry_pricing": {
-    "price_side": "same",
+    "price_side": "other",
     "use_order_book": true,
     "order_book_top": 1,
     "price_last_balance": 0.0,
@@ -27,14 +27,14 @@
     }
   },
   "exit_pricing": {
-    "price_side": "same",
+    "price_side": "other",
     "use_order_book": true,
     "order_book_top": 1
   },
   "exchange": {
     "name": "binance",
-    "key": "${BINANCE_API_KEY}",
-    "secret": "${BINANCE_SECRET_KEY}",
+    "key": "p4MNWemvBU2kKRlgpc84xVyKEqM2oAzwrfD7y2mgpaVxGBNoPMMqahxf9cqlvlsk",
+    "secret": "6YUDWozHgO5QyxKIFDEPvieuHgMyw9sfEQ33H1yptO4OY26zrQpEH1Aznk2ny1Ki",
     "ccxt_config": {
       "enableRateLimit": true,
       "rateLimit": 200

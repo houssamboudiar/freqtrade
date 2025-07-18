@@ -1,0 +1,2 @@
+redis[hiredis]>=4.3.0
+colorama>=0.4.4

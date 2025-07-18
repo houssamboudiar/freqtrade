@@ -1,0 +1,19 @@
+---
+version: '3'
+services:
+  freqtrade:
+    image: freqtrade/freqtrade:stable
+    # Build step - only needed when additional dependencies are needed
+    # build:
+    #   context: .
+    #   dockerfile: "./Dockerfile.custom"
+    restart: unless-stopped
+    container_name: freqtrade
+    volumes:
+      - "./user_data:/freqtrade/user_data"
+    ports:
+      - "127.0.0.1:8080:8080"
+    command: >
+      trade
+      --strategy DemoStrategy
+      --config /freqtrade/user_data/config_demo.json

@@ -1,0 +1,2 @@
+timestamp,open,high,low,close,volume,close_time,quote_asset_volume,number_of_trades,taker_buy_base_asset_volume,taker_buy_quote_asset_volume,ignore,ema_7,ema_25,ema_99
+2025-07-17 18:00:00,2.331,2.334,2.329,2.33,5850.4,1752778799999,13640.73380000,261,2158.50000000,5031.92880000,0,2.3312904352083255,2.3295283737720833,2.2965631998802145

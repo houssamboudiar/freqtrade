@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-07-18T13:01:33.516422",
+  "summary": {
+    "1m": {
+      "gaps": 0,
+      "missing_candles": 0
+    },
+    "1h": {
+      "gaps": 0,
+      "missing_candles": 0
+    },
+    "1d": {
+      "gaps": 0,
+      "missing_candles": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "symbol": "BTCUSDT",
+      "timeframe": "1m",
+      "status": "NO_DATA",
+      "total_candles": 0,
+      "gaps": [],
+      "first_candle": null,
+      "last_candle": null
+    },
+    {
+      "symbol": "BTCUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4320,
+      "expected_candles": 4320,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T12:00:00",
+      "last_candle": "2025-07-18T11:00:00",
+      "duration": "179 days 23:00:00"
+    },
+    {
+      "symbol": "BTCUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    }
+  ]
+}

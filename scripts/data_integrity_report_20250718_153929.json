@@ -1,0 +1,239 @@
+{
+  "timestamp": "2025-07-18T15:39:29.920086",
+  "summary": {
+    "1m": {
+      "gaps": 5,
+      "missing_candles": 9
+    },
+    "1h": {
+      "gaps": 0,
+      "missing_candles": 0
+    },
+    "1d": {
+      "gaps": 0,
+      "missing_candles": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1m",
+      "status": "GAPS_FOUND",
+      "total_candles": 259289,
+      "expected_candles": 259290,
+      "coverage_percentage": 99.99961433144355,
+      "gaps": [
+        {
+          "start_time": "2025-07-18T14:14:00",
+          "end_time": "2025-07-18T14:16:00",
+          "duration": "0 days 00:02:00",
+          "missing_candles": 2,
+          "timeframe": "1m"
+        }
+      ],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T14:29:00",
+      "duration": "180 days 01:29:00"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4321,
+      "expected_candles": 4321,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T13:00:00",
+      "duration": "180 days 00:00:00"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1m",
+      "status": "GAPS_FOUND",
+      "total_candles": 259291,
+      "expected_candles": 259292,
+      "coverage_percentage": 99.99961433441834,
+      "gaps": [
+        {
+          "start_time": "2025-07-18T14:18:00",
+          "end_time": "2025-07-18T14:20:00",
+          "duration": "0 days 00:02:00",
+          "missing_candles": 2,
+          "timeframe": "1m"
+        }
+      ],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T14:31:00",
+      "duration": "180 days 01:31:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4321,
+      "expected_candles": 4321,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T13:00:00",
+      "duration": "180 days 00:00:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1m",
+      "status": "GAPS_FOUND",
+      "total_candles": 259293,
+      "expected_candles": 259294,
+      "coverage_percentage": 99.99961433739307,
+      "gaps": [
+        {
+          "start_time": "2025-07-18T14:22:00",
+          "end_time": "2025-07-18T14:24:00",
+          "duration": "0 days 00:02:00",
+          "missing_candles": 2,
+          "timeframe": "1m"
+        }
+      ],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T14:33:00",
+      "duration": "180 days 01:33:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4321,
+      "expected_candles": 4321,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T13:00:00",
+      "duration": "180 days 00:00:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1m",
+      "status": "GAPS_FOUND",
+      "total_candles": 183276,
+      "expected_candles": 183276,
+      "coverage_percentage": 100.0,
+      "gaps": [
+        {
+          "start_time": "2025-07-18T14:25:00",
+          "end_time": "2025-07-18T14:26:00",
+          "duration": "0 days 00:01:00",
+          "missing_candles": 1,
+          "timeframe": "1m"
+        }
+      ],
+      "first_candle": "2025-03-13T08:00:00",
+      "last_candle": "2025-07-18T14:35:00",
+      "duration": "127 days 06:35:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 3054,
+      "expected_candles": 3054,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-03-13T08:00:00",
+      "last_candle": "2025-07-18T13:00:00",
+      "duration": "127 days 05:00:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 128,
+      "expected_candles": 128,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-03-13T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "127 days 00:00:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1m",
+      "status": "GAPS_FOUND",
+      "total_candles": 259296,
+      "expected_candles": 259297,
+      "coverage_percentage": 99.9996143418551,
+      "gaps": [
+        {
+          "start_time": "2025-07-18T14:28:00",
+          "end_time": "2025-07-18T14:30:00",
+          "duration": "0 days 00:02:00",
+          "missing_candles": 2,
+          "timeframe": "1m"
+        }
+      ],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T14:36:00",
+      "duration": "180 days 01:36:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4321,
+      "expected_candles": 4321,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T13:00:00",
+      "duration": "180 days 00:00:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    }
+  ]
+}

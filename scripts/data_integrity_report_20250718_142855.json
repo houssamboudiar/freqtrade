@@ -1,0 +1,199 @@
+{
+  "timestamp": "2025-07-18T14:28:55.314841",
+  "summary": {
+    "1m": {
+      "gaps": 0,
+      "missing_candles": 0
+    },
+    "1h": {
+      "gaps": 0,
+      "missing_candles": 0
+    },
+    "1d": {
+      "gaps": 0,
+      "missing_candles": 0
+    }
+  },
+  "detailed_results": [
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1m",
+      "status": "INTACT",
+      "total_candles": 259200,
+      "expected_candles": 259200,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:59:00",
+      "duration": "179 days 23:59:00"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4320,
+      "expected_candles": 4320,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:00:00",
+      "duration": "179 days 23:00:00"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1m",
+      "status": "INTACT",
+      "total_candles": 259200,
+      "expected_candles": 259200,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:59:00",
+      "duration": "179 days 23:59:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4320,
+      "expected_candles": 4320,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:00:00",
+      "duration": "179 days 23:00:00"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1m",
+      "status": "INTACT",
+      "total_candles": 259200,
+      "expected_candles": 259200,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:59:00",
+      "duration": "179 days 23:59:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4320,
+      "expected_candles": 4320,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:00:00",
+      "duration": "179 days 23:00:00"
+    },
+    {
+      "symbol": "SUSHIUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1m",
+      "status": "INTACT",
+      "total_candles": 183180,
+      "expected_candles": 183180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-03-13T08:00:00",
+      "last_candle": "2025-07-18T12:59:00",
+      "duration": "127 days 04:59:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 3053,
+      "expected_candles": 3053,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-03-13T08:00:00",
+      "last_candle": "2025-07-18T12:00:00",
+      "duration": "127 days 04:00:00"
+    },
+    {
+      "symbol": "EPICUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 128,
+      "expected_candles": 128,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-03-13T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "127 days 00:00:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1m",
+      "status": "INTACT",
+      "total_candles": 259200,
+      "expected_candles": 259200,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:59:00",
+      "duration": "179 days 23:59:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1h",
+      "status": "INTACT",
+      "total_candles": 4320,
+      "expected_candles": 4320,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-19T13:00:00",
+      "last_candle": "2025-07-18T12:00:00",
+      "duration": "179 days 23:00:00"
+    },
+    {
+      "symbol": "LOKAUSDT",
+      "timeframe": "1d",
+      "status": "INTACT",
+      "total_candles": 180,
+      "expected_candles": 180,
+      "coverage_percentage": 100.0,
+      "gaps": [],
+      "first_candle": "2025-01-20T00:00:00",
+      "last_candle": "2025-07-18T00:00:00",
+      "duration": "179 days 00:00:00"
+    }
+  ]
+}
